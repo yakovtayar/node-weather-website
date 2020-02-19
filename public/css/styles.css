@@ -12,6 +12,8 @@ body {
 
 .main-content{
     flex-grow: 1;
+    align-items: center;
+
 }
 
 footer {
@@ -19,31 +21,43 @@ footer {
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+
+    
 }
 
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+    align-items: center;
+
 }
 
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    align-items: center;
+
 }
 
 header a {
     color: #888888;
-    margin-right: 16px;
     text-decoration: none;
+    margin: 20px;
+    align-items: center;
+
 }
 
 .portrait {
     width: 250px;
+
 }
 
 input {
     border: 1px solid #cccccc;
+    width: 400px;
     padding: 8px;
+
+
 }
 
 button {
@@ -52,5 +66,8 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+    align-items: center;
+
+
 
 }
